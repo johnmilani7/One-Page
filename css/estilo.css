@@ -146,6 +146,7 @@
     height: 750px;
     background: #D7D5FF;
     margin-top: 140px;
+    justify-content: center;
 }
 
 #rodape h5{
@@ -226,5 +227,167 @@
 }
 
 @media (max-width: 640px){
+    .formulario{
+        width: 95%;
+    }
+    .formulario input{
+        width: 95%;
+    }
+    .msn{
+        width: 95%;
+    }
+    #enviar{
+       
+        width: 95%;
+    }
+    #pageone img{
+        width: 85%;
+        margin-left: 5%;
+    }
+    
+}
+
+
+@media (max-width: 520px){
+    
+    #lorem h2 {
+        width: 60%;
+        margin-left: 95px;
+        margin-top: 25px;
+    }
+    #lorem button {
+    margin-left: 101px;
+    margin-top: 39px;
+}
+#principal{
+    margin: 50px 0 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -5%;
+}
+
+}
+
+@media (max-width: 440px){
+    #principal  div{
+        display: flex;
+        width: 75%;
+
+}
+#principal{
+    margin: 50px 0 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -5%;
+}
+#principal h3{
+    width: 168px;
+    margin-top: 235px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B2B2B;
+}
+
+#principal h4{
+    width: 60%;
+    margin-left: -165px;
+    margin-top: 265px;
+}
+#lorem h2 {
+    width: 70%;
+    margin-left: 65px;
+    margin-top: 78px;
+}
+#lorem button {
+margin-left: 101px;
+margin-top: 69px;
+}
+#lorem h1 {
+    width: 55%;
+    margin-left: 65px;
+
+    }
+    #principal h4{
+        width: 70%;
+        margin-left: -165px;
+        margin-top: 265px;
+    }
+    #principal  div{
+        display: flex;
+        width: 75%;
+        height: 450px;
+
+}
+}
+
+@media (max-width: 400px){
+    #principal{
+        margin-left: -7%;
+    }
+    #lorem h2 {
+        margin-top: 85px;
+    }
+}
+
+@media (max-width: 360px){
+    #lorem button {
+        margin-left: 25%;
+        margin-top: 69px;
+        }
+}
+@media (max-width: 280px){
+    
+    #lorem h1 {
+        width: 75%;
+        margin-left: 45px;
+    
+        }
+    #lorem h2 {
+        width: 80%;
+        margin-left: 45px;
+        margin-top: 55px;
+    }
+    #lorem button {
+        margin-left: 22%;
+        margin-top: 79px;
+        }
+}
+
+@media (min-width: 1500px){
+    #pageone img{
+        width: 110%;
+        margin-left: -20%;
+    }
+    #cabeçalho{
+        height: 660px;
+        background: #D7D5FF;
+        border: solid #D7D5FF 1px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #lorem h1 {
+        font-size: 240%;
+        width: 60%;
+        }
+    #lorem h2 {
+        font-size: 150%;
+    }
+    
+}
+
+@media (min-width: 1980px){
+    #pageone img{
+        width: 110%;
+        margin-left: -40%;
+    }
     
 }
